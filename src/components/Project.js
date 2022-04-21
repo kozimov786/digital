@@ -89,7 +89,7 @@ const Card = styled.div`
   p{
     font-weight: 600;
     font-size: 28px;
-    width:${props => props.reverse ? '720px' : '100%'};
+    width:${props => props.reverse ? '600px' : '100%'};
     line-height: 36px;
     text-align: ${props => props.reverse ? 'left' : 'right'};
   }
