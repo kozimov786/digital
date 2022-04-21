@@ -112,12 +112,10 @@ const Card = styled.div`
   @media screen and (max-width: 1390px) {
     max-width:${props => props.small ? '1150px' : '1200px'};
     p{
-      font-size: 20px;
     line-height: 30px;
     max-width: 500px ;
     }
     img{
-      margin-left: -100px;
       margin-right: ${props => props.reverse ? '-100px' : '0'};
       width:630px ;
     }
@@ -125,24 +123,14 @@ const Card = styled.div`
   @media screen and (max-width: 1295px) {
     max-width:${props => props.small ? '1100px' : '1150px'};
     p{
-      font-size: 20px;
     line-height: 26px;
     }
     img{
-      margin-left: -100px;
       width:620px ;
     }
   }
   @media screen and (max-width: 1255px) {
     max-width:${props => props.small ? '1050px' : '1100px'};
-    p{
-      font-size: 20px;
-    line-height: 26px;
-    }
-    img{
-      margin-left: -100px;
-      width:620px ;
-    }
   }
   @media screen and (max-width: 1200px) {
     max-width:${props => props.small ? '1000px' : '1050px'};
@@ -151,60 +139,36 @@ const Card = styled.div`
     line-height: 22px;
     }
     img{
-      margin-left: -80px;
       width:620px ;
     }
   }
   @media screen and (max-width: 1130px) {
     max-width:${props => props.small ? '950px' : '1000px'};
     p{
-      font-size: 18px;
-    line-height: 22px;
     max-width:400px ;
     }
     img{
-      margin-left: -80px;
       width:620px ;
     }
   }
   @media screen and (max-width: 1090px) {
     max-width:${props => props.small ? '900px' : '950px'};
-    p{
-      font-size: 18px;
-    line-height: 22px;
-    }
     img{
-      margin-left: -80px;
       width:620px ;
     }
   }
   @media screen and (max-width: 1030px) {
     max-width:${props => props.small ? '850px' : '900px'};
-    p{
-      font-size: 18px;
-    line-height: 22px;
-    }
     img{
-      margin-left: -80px;
       width:520px ;
     }
   }
   @media screen and (max-width: 980px) {
     max-width:${props => props.small ? '800px' : '850px'};
-    p{
-      font-size: 18px;
-    line-height: 22px;
-    }
-    img{
-      margin-left: -80px;
-      width:520px ;
-    }
   }
   @media screen and (max-width: 940px) {
     flex-direction:column ;
     p{
-      font-size: 18px;
-    line-height: 22px;
     text-align: center;
     width:100%;
     }
